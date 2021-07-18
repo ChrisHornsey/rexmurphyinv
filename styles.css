@@ -72,11 +72,13 @@ nav {
 .box,
 .gator {
     width: 400px;
-    height: 400px;
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-content: center;
+}
+.box {
+    height: 400px;
 }
 
 .box img {
@@ -90,6 +92,10 @@ nav {
 .gator p {
     text-align: center;
     font-size: 24px;
+}
+
+.gator {
+    height: 600px;
 }
 
 .gator img {
