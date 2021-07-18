@@ -110,8 +110,18 @@ footer {
     text-align: center;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
     .titlebar img {
         display:none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .titlebar {
+        height: 200px;
+    }
+
+    nav ul {
+        height: 100px;
     }
 }
