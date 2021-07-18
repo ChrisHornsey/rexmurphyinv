@@ -103,12 +103,15 @@ nav {
     height: 500px;
     object-fit: cover;
 }
-.team {
-    margin-bottom: 150px;
-}
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .titlebar img {
+        display:none;
+    }
 }
